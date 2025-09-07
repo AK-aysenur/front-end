@@ -40,13 +40,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-image" width="375px" alt="Adobe begin pagina">
-  <img width="375" alt="Adobe website begin pagina" src="https://github.com/user-attachments/assets/d68a5e1e-3473-4311-a1fe-afd322a42771"/>
+  <img width="275" alt="Adobe website begin pagina" src="https://github.com/user-attachments/assets/d68a5e1e-3473-4311-a1fe-afd322a42771"/>
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img width="275" alt="Adobe illustrator website pagina" src="https://github.com/user-attachments/assets/53a97aca-c268-4f65-b20e-6d151fc21a11"/>
+
  
 </details>
 
@@ -70,14 +70,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img width="108" height="868" alt="breakdown van de hele pagina" src="https://github.com/user-attachments/assets/7aaf146f-9084-43af-b542-9c3c527d79cd"/>
+  <img width="108" height="932" alt="breakdown van de hele pagina" src="https://github.com/user-attachments/assets/494c638b-ed52-4720-91d9-9df46393eda2"/>
+
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img width="375" alt="breakdown van een dynamisch deel" src="https://github.com/user-attachments/assets/bb511e98-8ffc-4c38-9ad2-4bbacbc7c51e"/>
+  <img width="375" alt="breakdown van een dynamisch deel" src="https://github.com/user-attachments/assets/08c2212f-6417-4569-8c24-1dcedbe826ef"/>
+
+
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  <img width="375" alt="breakdown van nog een dynamisch deel" src="https://github.com/user-attachments/assets/2bb5de5f-7232-474c-97ca-bd05d630848d"/>
+  <img width="375" alt="breakdown van nog een dynamisch deel" src="https://github.com/user-attachments/assets/6e59d0b3-3086-4c16-8891-156b7d10744f"/>
+  
 </details>
 
 
