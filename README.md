@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.adobe.com/nl/#
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  hier de naam van de pagina: Adobe Creative Cloud 
   <img width="275" alt="Adobe website begin pagina" src="https://github.com/user-attachments/assets/d68a5e1e-3473-4311-a1fe-afd322a42771"/>
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  hier de naam van de pagina: Adobe Illustrator  
   <img width="275" alt="Adobe illustrator website pagina" src="https://github.com/user-attachments/assets/53a97aca-c268-4f65-b20e-6d151fc21a11"/>
 
  
