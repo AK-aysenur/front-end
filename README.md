@@ -40,7 +40,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-image" width="375px" alt="Adobe begin pagina">
+  <img width="375" alt="Adobe website begin pagina" src="https://github.com/user-attachments/assets/d68a5e1e-3473-4311-a1fe-afd322a42771"/>
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
