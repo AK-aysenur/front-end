@@ -96,14 +96,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### dynamisch deel (bijv menu): 
-  <img width="375" alt="breakdown van een dynamisch deel" src="https://github.com/user-attachments/assets/bb511e98-8ffc-4c38-9ad2-4bbacbc7c51e"/>
-  <img width="375" alt="breakdown van een dynamisch deel" src="https://github.com/user-attachments/assets/08c2212f-6417-4569-8c24-1dcedbe826ef"/>
+  <img width="375" alt="breakdown van een dynamisch deel" src="https://github.com/user-attachments/assets/085bffa1-35ee-493c-a127-e643f092b428" />
+  <img width="375" alt="breakdown van een dynamisch deel" src="https://github.com/user-attachments/assets/6de77688-3044-4c37-a462-2cf803f8884b" />
+
 
 
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img width="375" alt="breakdown van nog een dynamisch deel" src="https://github.com/user-attachments/assets/2bb5de5f-7232-474c-97ca-bd05d630848d"/>
-  <img width="375" alt="breakdown van nog een dynamisch deel" src="https://github.com/user-attachments/assets/6e59d0b3-3086-4c16-8891-156b7d10744f"/>
+  <img width="375" alt="breakdown van nog een dynamisch deel" src="https://github.com/user-attachments/assets/e34d4ba7-a285-4306-8491-7a12b7f1386a" />
+  <img width="375" alt="breakdown van nog een dynamisch deel" src="https://github.com/user-attachments/assets/9b19fc8d-e92c-452b-b57b-6592dc5a216a" />
+
   
 </details>
 
