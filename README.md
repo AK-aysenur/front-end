@@ -93,6 +93,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img width="108" height="868" alt="breakdown van de hele pagina" src="https://github.com/user-attachments/assets/7aaf146f-9084-43af-b542-9c3c527d79cd"/>
   <img width="108" height="932" alt="breakdown van de hele pagina" src="https://github.com/user-attachments/assets/494c638b-ed52-4720-91d9-9df46393eda2"/>
+  <img width="104" height="1598" alt="image" src="https://github.com/user-attachments/assets/87760ce6-b2a8-4e39-b6ad-2875a92bd349" />
+
 
 
   ### dynamisch deel (bijv menu): 
