@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.adobe.com/nl/#
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina: Adobe Creative Cloud 
+  hier de naam van de pagina: Adobe Creative Cloud home page
   <img width="275" alt="Adobe website begin pagina" src="https://github.com/user-attachments/assets/d68a5e1e-3473-4311-a1fe-afd322a42771"/>
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina: Adobe Illustrator  
+  hier de naam van de pagina: Adobe Illustrator page
   <img width="275" alt="Adobe illustrator website pagina" src="https://github.com/user-attachments/assets/53a97aca-c268-4f65-b20e-6d151fc21a11"/>
 
  
@@ -59,6 +59,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  Adobe gebruikt veel div's:
+  <img width="350" alt="afbeelding van een html code" src="https://github.com/user-attachments/assets/6205fda1-691b-4f33-b088-0e9bcd7f598e"/>
+
+  Adobe gebruikt onduidelijke alt attributes voor images/pictures:
+  <img width="350" alt="afbeelding van een html code" src="https://github.com/user-attachments/assets/1d8b9db7-ac71-466a-9b1d-040073f7f94a"/>
+
+  Adobe heeft video dat op autoplay staat maar je kan hem pauzeren.
+  Video's hebben geen audio en tekst, het is alleen visueel.
+  <img width="350" alt="adobe video afbeelding van konijn" src="https://github.com/user-attachments/assets/5232c3b3-031b-45a4-81cb-e94f36d6d1a0"/>
+
+  Buttons hebben geen button element. Focus state is onduidelijk en niet goed zichtbaar:
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/8615f53b-e40c-4731-bd37-ab479181c9c4"/>
+
+  Geen dark mode beschikbaar.
+  Hoog contrast niet beschikbaar.
+  Text kan je niet vergroten naar 200%.
+
+
+
+
 
 </details>
 
