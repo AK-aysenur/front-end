@@ -131,7 +131,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---                                | ---                                                         | ---                                    | ---              |
   | hamburger menu goed krijgen        | witruimte aan de randen van de pagina weghalen              | flexbox, justify content toepassen     | niet aanwezig    |
   | meer uitleg over css map met roots | topverhalen sectie goed krijgen                             | werken met background img              |                  |
-  |                                    | hamburgermenu icoon kleiner maken, kruisje op dezelfde plek |                                        |                  |
+  | hoe ik en zwart balk boven mijn header plaats| hamburgermenu icoon kleiner maken, kruisje op dezelfde plek |                              |                  |
 
 
 
