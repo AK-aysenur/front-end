@@ -128,9 +128,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | student 1 Nur                      | student 2 Iris                                              | student 3  Luuk                        | student 4 Toria  |
+  | ---                                | ---                                                         | ---                                    | ---              |
   | hamburger menu goed krijgen        | witruimte aan de randen van de pagina weghalen              | flexbox, justify content toepassen     | niet aanwezig    |
-  | meer uitleg over css map met roots | topverhalen sectie goed krijgen                             | werken met background img              | ---              |
-  | ---                                | hamburgermenu icoon kleiner maken, kruisje op dezelfde plek | ---                                    | ---              |
+  | meer uitleg over css map met roots | topverhalen sectie goed krijgen                             | werken met background img              |                  |
+  |                                    | hamburgermenu icoon kleiner maken, kruisje op dezelfde plek |                                        |                  |
 
 
 
