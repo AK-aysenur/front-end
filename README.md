@@ -127,15 +127,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1 Nur  | student 2 Iris     | student 3  Luuk  | student 4 Toria  |
-  | ---            | ---                | ---              | ---              |
-  | hamburger menu 
-  goed krijgen & 
-  meer uitleg over 
+  | student 1 Nur  | student 2 Iris                                             | student 3  Luuk                        | student 4 Toria  |
+  | ---            | ---                                                        | ---                                    | ---              |
+  | hamburger menu  witruimte aan de randen van de pagina weghalen
+  goed krijgen     |topverhalen sectie goed krijgen                             |flexbox, justify content toepassen      | niet aanwezig    |
+  |meer uitleg over 
   css map met 
-  ::roots          |                    | en ik dit        | en dan ik dat    |
-  |                |                    | nog een punt     | dit wil ik zeker |
-  |                | ...                | ...              | ...              |
+  ::roots          |hamburgermenu icoon kleiner maken, kruisje op dezelfde plek |werken met background img               |                  |
+  |                | ...                                                        | ...                                    | ...              |
 
 
   ### Verslag van meeting
