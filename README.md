@@ -129,9 +129,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1 Nur  | student 2 Iris     | student 3  Luuk  | student 4 Toria  |
   | ---            | ---                | ---              | ---              |
-  | dit bespreken  | en dit             | en ik dit        | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt     | dit wil ik zeker |
-  | ...            | ...                | ...              | ...              |
+  | hamburger menu 
+  goed krijgen & 
+  meer uitleg over 
+  css map met 
+  ::roots          |                    | en ik dit        | en dan ik dat    |
+  |                |                    | nog een punt     | dit wil ik zeker |
+  |                | ...                | ...              | ...              |
 
 
   ### Verslag van meeting
