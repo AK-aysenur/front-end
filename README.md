@@ -171,9 +171,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - borders aangepast met width::max-content
+  - 2de header moet ik aanpassen met translate
+  - elementen met margin-inline:: auto aanpassen zodat ze helemaal aan de zijkant staan
 - ...
 
 </details>
