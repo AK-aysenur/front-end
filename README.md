@@ -161,11 +161,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1 Nur                             | student 2 Iris                               | student 3 Luuk   | student 4 Toria      |
-  | ---                                       | ---                                          | ---              | ---                  |
-  | hoe ik de 2de menu het beste kan coderen  | menu helemaal laten uitklappen naar beneden  | Niet aanwezig    | hoe footer met ul/li |
-  | hoe ik borders korter kan maken           | sectie goed krijgen                          |                  | header goed krijgen  |
-  | ...                                       | ...                                          | ...              | ...                  |
+  | student 1 Nur                             | student 2 Iris                               | student 3 Luuk                                 | student 4 Toria      |
+  | ---                                       | ---                                          | ---                                            | ---                  |
+  | hoe ik de 2de menu het beste kan coderen  | menu helemaal laten uitklappen naar beneden  | Design in pagina krijgen zonder img gebruiken  | hoe footer met ul/li |
+  | hoe ik borders korter kan maken           | sectie goed krijgen                          | drop down menu’s + animatie                    | header goed krijgen  |
+  | ...                                       | ...                                          | ...                                            | ...                  |
 
 
   ### Verslag van meeting
