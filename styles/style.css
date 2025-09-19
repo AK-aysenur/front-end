@@ -2,7 +2,9 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
 
@@ -16,7 +18,12 @@
 :root {
 	/* startje */
 	--color-text:#111;
+	--color-text2:#eee;
 	--color-background:#eee;
+	--color-background-dark: #111; 
+	--color-box-blauw: rgb(0, 179, 255);
+	--color-box-beige: #ffe4c4;
+	color-scheme: light dark;
 }
 
 
@@ -27,5 +34,158 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+header {
+	display:flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:space-between;
+	background-color: var(--color-background);
+	list-style-type: none;
+	height: 10vh;
+	position: fixed;
+	/* padding-bottom: 2rem; */
+}
 
+header section {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--color-background-dark);
+	width: 100vw;
+	order: 0;
+	padding: .8rem;
+}
+
+header section h2 {
+	font-size: 1rem;
+}
+
+header button:nth-of-type(1) {
+	order: 1;
+}
+
+header nav, header a {
+	order: 2;
+}
+
+header img {
+	width: 10vw;
+	padding-right: 1rem;
+}
+
+header a:first-child img {
+	width: 5rem;
+}
+
+header > a {
+	margin-right: auto;
+}
+
+head a:last-child {
+	margin-left: auto;
+}
+
+header button { /* https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit */
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+header button img {
+	width: 2.5em;
+}
+
+header > button {
+	order:-1;
+}
+
+@media (min-width:38em) {
+	header img {
+		width: 2em;
+	}
+}
+
+nav {
+	background-color: #252525;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	
+	translate: -100%;
+	
+	
+	@media (prefers-reduced-motion:no-preference) {
+	  transition:.3s;
+	}
+}
+
+nav.is-open {
+   translate:0%;
+}
+
+@media (min-width:38em) {
+	header > button {
+	  
+	  display:none;
+	  
+	}
+
+nav {
+    position:static;
+    translate:0%;
+    background:none;
+    
+}
+
+nav button {
+    display:none;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    gap:.5em;
+}
+
+nav a {
+    
+    border:none;
+    flex-direction:column;
+    
+  }
+  
+  header > a:last-of-type {
+    
+    flex-direction:column;
+    
+  }
+}
+
+@media (min-width:57em) {
+	header > a:last-of-type,
+	nav a {
+	  flex-direction:row; 
+	}
+}
+
+footer {
+	background-color: rgb(199, 199, 199);
+
+}
+
+footer li {
+	display: flex;
+	flex-direction: column;
+}
+
+footer button {
+	text-align: left;
+	padding: 1em;
+}
