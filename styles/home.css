@@ -22,11 +22,13 @@ main > section:nth-of-type(1) a {
     justify-content: left;
     margin: 2em;
     color: var(--color-text2);
+    font-size: 1.2em;
 }
 
 main > section:nth-of-type(1) p {
     color: var(--color-text2);
     margin: 2em;
+    font-size: 1.2em;
 }
 
 main > section:nth-of-type(1) h1 {
@@ -44,32 +46,16 @@ main > section:nth-of-type(1) h2 {
     color: var(--color-text2);
 }
 
-/* main > section > section:nth-of-type(1) li {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    color: var(--color-text2);
-    margin: 2rem;
-} */
-
-main > section > section:nth-of-type(1) h3 { /* h3 verstopt */
-    /* clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px; */
-}
-
-main > section > section:nth-of-type(1) { /* box 1 blauw */
+/***************/
+/* BOX 1 BLAUW */
+/***************/
+main > section > section:nth-of-type(1) { 
 	background-color: var(--color-box-blauw);
 	border-radius: 1em;
     margin: 2em;
     padding: 1em;
     color: var(--color-text);
 }
-
 
 main > section > section:nth-of-type(1) h2,
 main > section > section:nth-of-type(2) h2 {
@@ -103,17 +89,25 @@ main > section > section:nth-of-type(1) a,
 main > section > section:nth-of-type(2) a {
     padding-top: .7em;
     padding-bottom: .7em;
+    margin-left: 1em;
     border-style: solid;
     border-radius: 2em; 
-    border-color: blue;
+    border-color: black;
+    border-width: .2em;
     width: 10rem;
     display: flex;
     justify-content: center;
-    background-color: var(--color-button);
+    background-color: var(--color-button-background); 
     text-decoration: none;
+    font-size: 1em;
+    font-weight: var(--font-weight-dik);
+    color: var(--color-text);
 }
 
-main > section > section:nth-of-type(2) { /* box 2 beige */
+/***************/
+/* BOX 2 BEIGE */
+/***************/
+main > section > section:nth-of-type(2) { 
 	background-color: var(--color-box-beige);
 	border-radius: 1em;
     margin: 2em;
@@ -130,27 +124,15 @@ main > section > section:nth-of-type(2) { /* box 2 beige */
 
 }
 
-
 main > section:last-of-type {
     background-color: var(--color-section2-main);
+    padding-bottom: 2em;
 }
 
 main > section:last-of-type h2 {
     color: var(--color-text);
     text-align: center;
     padding: .5em;
-}
-
-main > section:last-of-type li {
-    /* display: flex;
-    flex-direction: column;
-    text-align: center; */
-    /* display: inline-block;
-    border: 2px solid purple;  */
-    /* padding: 4px 8px;   
-    display: flex;
-    justify-content: center;
-    flex-direction: column;  */
 }
 
 main > section:last-of-type ul {
@@ -167,6 +149,10 @@ main > section:last-of-type a {
     margin-bottom: .5em;
     border-style: solid;
     border-radius: 1.5em; 
+    border-width: .2em;
+    border-color: var(--border-color);
+    color: var(--color-text);
+    font-weight: var(--font-weight-dik);
     width: auto;
     display: block;
     text-decoration: none;

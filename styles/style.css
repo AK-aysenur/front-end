@@ -16,17 +16,19 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-text: light-dark(#111, #eee);
 	--color-text2:#eee;
 	--color-background:#eee;
 	--color-background-dark: #111; 
-	--color-box-blauw: rgb(0, 179, 255);
-	--color-box-beige: #ffe4c4;
-	--color-footer: light-dark(#c7c7c7, #111);
+	--color-button-background: light-dark(#ffffff00, #111);
+	--color-box-blauw: light-dark(#00b3ff, #00415d);
+	--color-box-beige: light-dark(#ffe4c4, #613500);
+	--color-footer: light-dark(#e1e1e1, #111);
 	--color-button: light-dark(blue, pink);
 	--color-list-creative: light-dark(#eee, #111);
-	--color-section2-main: light-dark(#eee, #111);
+	--color-section2-main: light-dark(#eee, #494949);
+	--font-weight-dik: 600;
+	--border-color: light-dark(#111, #eee);
 	color-scheme: light dark; 
 }
 
@@ -90,7 +92,7 @@ head a:last-child {
 	margin-left: auto;
 }
 
-header button { /* https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit */
+header button { /* bron button stijl weghalen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit */
 	background: none;
 	color: inherit;
 	border: none;
@@ -124,7 +126,6 @@ nav {
 	
 	translate: 0 -100%;  /* hier aanwijzigingen oen om de 2de menu vanuit onderaan te krijgen */
 	
-	
 	@media (prefers-reduced-motion:no-preference) {
 	  transition:.3s;
 	}
@@ -136,21 +137,17 @@ nav.is-open {
 
 @media (min-width:38em) {
 	header > button {
-	  
 	  display:none;
-	  
 	}
 
 nav {
     position:static;
     translate:0%;
     background:none;
-    
 }
 
 nav button {
     display:none;
-    
 }
 
 nav ul {
@@ -161,16 +158,12 @@ nav ul {
 }
 
 nav a {
-    
     border:none;
     flex-direction:column;
-    
   }
   
   header > a:last-of-type {
-    
     flex-direction:column;
-    
   }
 }
 
@@ -183,7 +176,6 @@ nav a {
 
 footer {
 	background-color: var(--color-footer);
-
 }
 
 footer li {
@@ -199,7 +191,9 @@ footer button {
 footer section:nth-of-type(1),
 footer section:nth-of-type(2),
 footer section:nth-of-type(3),
-footer section:nth-of-type(4) {
+footer section:nth-of-type(4),
+footer section:nth-of-type(5),
+footer section:nth-of-type(6) {
 	display: flex;
   	justify-content: center;
   	flex-wrap: wrap;
@@ -209,7 +203,9 @@ footer section:nth-of-type(4) {
 footer section:nth-of-type(1) button,
 footer section:nth-of-type(2) button,
 footer section:nth-of-type(3) button,
-footer section:nth-of-type(4) button {
+footer section:nth-of-type(4) button,
+footer section:nth-of-type(5) button,
+footer section:nth-of-type(6) button {
 	display: block;
 	border-bottom: .01em solid #686868;
 	border-top: none;
@@ -221,12 +217,15 @@ footer section:nth-of-type(4) button {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+	font-weight: var(--font-weight-dik);
 }
 
 footer section:nth-of-type(1) ul,
 footer section:nth-of-type(2) ul, 
 footer section:nth-of-type(3) ul,
-footer section:nth-of-type(4) ul {
+footer section:nth-of-type(4) ul,
+footer section:nth-of-type(5) ul,
+footer section:nth-of-type(6) ul {
 	background-color: var(--color-footer);
 	margin: 0;
 	padding: 0;
@@ -246,7 +245,9 @@ footer section:nth-of-type(4) ul {
 footer section:nth-of-type(1) ul a,
 footer section:nth-of-type(2) ul a,
 footer section:nth-of-type(3) ul a,
-footer section:nth-of-type(4) ul a {
+footer section:nth-of-type(4) ul a,
+footer section:nth-of-type(5) ul a,
+footer section:nth-of-type(6) ul a {
 	display:block;
   	padding:.5em;
 	padding-left: 1.5em;
@@ -258,11 +259,45 @@ footer section:nth-of-type(4) ul a {
 footer section:nth-of-type(1).is-open ul,
 footer section:nth-of-type(2).is-open ul,
 footer section:nth-of-type(3).is-open ul,
-footer section:nth-of-type(4).is-open ul {
+footer section:nth-of-type(4).is-open ul,
+footer section:nth-of-type(5).is-open ul,
+footer section:nth-of-type(6).is-open ul {
 	height: auto;
 }
 
-footer section h2 { /*verstopt h2*/
+footer section:nth-of-type(1) img,
+footer section:nth-of-type(2) img,
+footer section:nth-of-type(3) img,
+footer section:nth-of-type(4) img,
+footer section:nth-of-type(5) img,
+footer section:nth-of-type(6) img {
+	width: 3vh;
+	position: absolute;
+	right: 1rem;
+}
+
+@media (prefers-color-scheme:dark) {    /* svgtjes van dark naar light */
+	footer section:nth-of-type(1) img,
+	footer section:nth-of-type(2) img,
+	footer section:nth-of-type(3) img,
+	footer section:nth-of-type(4) img,
+	footer section:nth-of-type(5) img,
+	footer section:nth-of-type(6) img,
+	footer section:nth-of-type(7) img {
+		filter:invert(100%);
+	}
+}
+
+footer section:nth-of-type(1).is-open img,
+footer section:nth-of-type(2).is-open img,
+footer section:nth-of-type(3).is-open img,
+footer section:nth-of-type(4).is-open img,
+footer section:nth-of-type(5).is-open img,
+footer section:nth-of-type(6).is-open img {
+	rotate: .5turn;
+}
+
+footer section h2 {    /* verstopt h2 */
 	clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -271,3 +306,29 @@ footer section h2 { /*verstopt h2*/
     white-space: nowrap;
     width: 1px;
 }
+
+/* section 2 van footer  */
+footer section:nth-of-type(7) {
+	padding: 2em;
+	margin-top: 1em;
+}
+
+footer section:nth-of-type(7) ul:nth-of-type(1) li {
+	display: flex;
+	flex-direction: row;
+}
+
+footer section:nth-of-type(7) img {
+	width: 4vh;
+}
+
+footer section:nth-of-type(7) ul:nth-of-type(2) li {
+	display: flex;
+	/* flex-direction: row; */
+}
+
+footer section:nth-of-type(7) a,
+footer section:nth-of-type(7) ul:nth-of-type(2) li a {
+	text-decoration: none;
+}
+

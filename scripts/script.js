@@ -1,8 +1,9 @@
 // JavaScript Document
 console.log("hi");
 
-
-// dropdown-menu
+///////////////////
+// DROPDOWN-MENU //
+///////////////////
 let openMenuButton = document.querySelector("header > button");
 
 openMenuButton.addEventListener("click", openMenu);
@@ -12,8 +13,6 @@ function openMenu() {
   deNav.classList.add("is-open");
 }
 
-
-// 
 let sluitMenuButton = document.querySelector("header nav button");
 
 sluitMenuButton.addEventListener("click", sluitMenu);
@@ -23,8 +22,11 @@ function sluitMenu() {
   deNav.classList.remove("is-open");
 }
 
+//////////////////////////
+// FOOTER TOGGLE MENU /// 
+//////////////////////////
 
-// footer toggle menu 1 // 
+// footer toggle menu 1 //
 const klapSectionInduvidu = document.querySelector("footer section:nth-of-type(1)");
 const klapButtonInduvidu = document.querySelector("footer section:nth-of-type(1) button");
 
@@ -62,4 +64,24 @@ klapButtonOndersteuning.onclick = toggleLijstjeContact4;
 
 function toggleLijstjeContact4() {
   klapSectionOndersteuning.classList.toggle("is-open");
+}
+
+// fotter toggle menu 5 //
+const klapSectionAdobe = document.querySelector("footer section:nth-of-type(5)");
+const klapButtonAdobe = document.querySelector("footer section:nth-of-type(5) button");
+
+klapButtonAdobe.onclick = toggleLijstjeContact5;
+
+function toggleLijstjeContact5() {
+  klapSectionAdobe.classList.toggle("is-open");
+}
+
+// fotter toggle menu 6 //
+const klapSectionProducts = document.querySelector("footer section:nth-of-type(6)");
+const klapButtonProducts = document.querySelector("footer section:nth-of-type(6) button");
+
+klapButtonProducts.onclick = toggleLijstjeContact6;
+
+function toggleLijstjeContact6() {
+  klapSectionProducts.classList.toggle("is-open");
 }
