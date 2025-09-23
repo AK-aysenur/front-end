@@ -263,8 +263,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. bron 1 over hoe je de stijling van een button kan weghalen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
+  2. bron 2 svgtjes: https://www.svgrepo.com/
   3. ...
 
 </details>
