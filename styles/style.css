@@ -3,8 +3,8 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -17,13 +17,17 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
+	--color-text: light-dark(#111, #eee);
 	--color-text2:#eee;
 	--color-background:#eee;
 	--color-background-dark: #111; 
 	--color-box-blauw: rgb(0, 179, 255);
 	--color-box-beige: #ffe4c4;
-	color-scheme: light dark;
+	--color-footer: light-dark(#c7c7c7, #111);
+	--color-button: light-dark(blue, pink);
+	--color-list-creative: light-dark(#eee, #111);
+	--color-section2-main: light-dark(#eee, #111);
+	color-scheme: light dark; 
 }
 
 
@@ -43,6 +47,7 @@ header {
 	list-style-type: none;
 	height: 10vh;
 	position: fixed;
+	top: 0;
 	/* padding-bottom: 2rem; */
 }
 
@@ -53,6 +58,7 @@ header section {
 	width: 100vw;
 	order: 0;
 	padding: .8rem;
+	color: var(--color-text2);
 }
 
 header section h2 {
@@ -116,7 +122,7 @@ nav {
 	top:0;
 	bottom:0;
 	
-	translate: -100%;
+	translate: 0 -100%;  /* hier aanwijzigingen oen om de 2de menu vanuit onderaan te krijgen */
 	
 	
 	@media (prefers-reduced-motion:no-preference) {
@@ -125,7 +131,7 @@ nav {
 }
 
 nav.is-open {
-   translate:0%;
+   translate:0 0; /* dit ook aanpassen voor de 2de menu */
 }
 
 @media (min-width:38em) {
@@ -176,7 +182,7 @@ nav a {
 }
 
 footer {
-	background-color: rgb(199, 199, 199);
+	background-color: var(--color-footer);
 
 }
 
@@ -188,4 +194,80 @@ footer li {
 footer button {
 	text-align: left;
 	padding: 1em;
+}
+
+footer section:nth-of-type(1),
+footer section:nth-of-type(2),
+footer section:nth-of-type(3),
+footer section:nth-of-type(4) {
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	flex-direction: column;
+}
+
+footer section:nth-of-type(1) button,
+footer section:nth-of-type(2) button,
+footer section:nth-of-type(3) button,
+footer section:nth-of-type(4) button {
+	display: block;
+	border-bottom: .01em solid #686868;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: none;
+	color: inherit;
+	padding: 1.2em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+footer section:nth-of-type(1) ul,
+footer section:nth-of-type(2) ul, 
+footer section:nth-of-type(3) ul,
+footer section:nth-of-type(4) ul {
+	background-color: var(--color-footer);
+	margin: 0;
+	padding: 0;
+	list-style-type:"";
+	
+	height: 0;
+	width: 100%;
+	
+	overflow: hidden;
+
+	border-bottom: .01em solid #686868;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+footer section:nth-of-type(1) ul a,
+footer section:nth-of-type(2) ul a,
+footer section:nth-of-type(3) ul a,
+footer section:nth-of-type(4) ul a {
+	display:block;
+  	padding:.5em;
+	padding-left: 1.5em;
+	text-decoration: none;
+	font-size: .8em;
+	color: var(--color-text);
+}
+
+footer section:nth-of-type(1).is-open ul,
+footer section:nth-of-type(2).is-open ul,
+footer section:nth-of-type(3).is-open ul,
+footer section:nth-of-type(4).is-open ul {
+	height: auto;
+}
+
+footer section h2 { /*verstopt h2*/
+	clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
