@@ -11,13 +11,18 @@ main > section > a:nth-of-type(1) {
     padding-bottom: .7em;
     border-style: solid;
     border-radius: 2em; 
-    border-color: blue;
-    width: max-content;
+    width: 13em;
     background-color: var(--color-button);
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    color: var(--color-text2);
+    font-size: 1.2em;
+    border-color: var(--color-button);
 }
 
-main > section:nth-of-type(1) a {
+main > section > a:nth-of-type(2) {
     display: flex;
     justify-content: left;
     margin: 2em;
@@ -80,11 +85,6 @@ main > section > section:nth-of-type(2) p {
     margin: 1em;
 }
 
-main > section > section:nth-of-type(1) img,
-main > section > section:nth-of-type(2) img { /* box 1 beeld */
-    width: 100;
-}
-
 main > section > section:nth-of-type(1) a,
 main > section > section:nth-of-type(2) a {
     padding-top: .7em;
@@ -94,7 +94,7 @@ main > section > section:nth-of-type(2) a {
     border-radius: 2em; 
     border-color: black;
     border-width: .2em;
-    width: 10rem;
+    width: 12rem;
     display: flex;
     justify-content: center;
     background-color: var(--color-button-background); 
@@ -120,8 +120,6 @@ main > section > section:nth-of-type(2) {
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
-
-
 }
 
 main > section:last-of-type {

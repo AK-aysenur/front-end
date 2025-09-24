@@ -1,6 +1,7 @@
 // JavaScript Document
 console.log("hi");
 
+
 ///////////////////
 // DROPDOWN-MENU //
 ///////////////////
@@ -21,6 +22,7 @@ function sluitMenu() {
   let deNav = document.querySelector("header nav");
   deNav.classList.remove("is-open");
 }
+
 
 //////////////////////////
 // FOOTER TOGGLE MENU /// 

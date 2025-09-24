@@ -9,9 +9,6 @@
 
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -24,7 +21,7 @@
 	--color-box-blauw: light-dark(#00b3ff, #00415d);
 	--color-box-beige: light-dark(#ffe4c4, #613500);
 	--color-footer: light-dark(#e1e1e1, #111);
-	--color-button: light-dark(blue, pink);
+	--color-button: light-dark(#1a6cd0, #130072);
 	--color-list-creative: light-dark(#eee, #111);
 	--color-section2-main: light-dark(#eee, #494949);
 	--font-weight-dik: 600;
@@ -34,12 +31,26 @@
 
 
 
+/***************/
+/* LETTERTYPE */
+/**************/
+@font-face {
+	font-family: 'source-sans-pro';
+	src: url(../fonts/SourceSansPro-Regular.otf) format('otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+}
+
+header, main, footer {
+	font-family: 'source-sans-pro', sans-serif;
+}
+
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
-
 header {
 	display:flex;
 	flex-wrap: wrap;
@@ -50,7 +61,6 @@ header {
 	height: 10vh;
 	position: fixed;
 	top: 0;
-	/* padding-bottom: 2rem; */
 }
 
 header section {
@@ -63,8 +73,18 @@ header section {
 	color: var(--color-text2);
 }
 
+header section button {
+	border: .2em solid #ffffff;
+	border-radius: 2em;
+	width: 12em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
 header section h2 {
 	font-size: 1rem;
+	display: flex;
+	align-items: center;
 }
 
 header button:nth-of-type(1) {
@@ -107,7 +127,7 @@ header button img {
 }
 
 header > button {
-	order:-1;
+	order: -1;
 }
 
 @media (min-width:38em) {
@@ -116,64 +136,75 @@ header > button {
 	}
 }
 
+header nav a {
+	text-decoration: none;
+	color: var(--color-text2);
+	padding: 1em;
+}
+
 nav {
 	background-color: #252525;
-	position:fixed;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	
-	translate: 0 -100%;  /* hier aanwijzigingen oen om de 2de menu vanuit onderaan te krijgen */
+	translate: -100%;  /* hier aanwijzigingen oen om de 2de menu vanuit onderaan te krijgen (0 -100%) */
 	
 	@media (prefers-reduced-motion:no-preference) {
-	  transition:.3s;
+	  transition: .3s;
 	}
 }
 
 nav.is-open {
-   translate:0 0; /* dit ook aanpassen voor de 2de menu */
+   translate: 0; /* dit ook aanpassen voor de 2de menu (0 0)*/
 }
 
 @media (min-width:38em) {
 	header > button {
-	  display:none;
+	  display: none;
 	}
 
 nav {
-    position:static;
-    translate:0%;
-    background:none;
+    position: static;
+    translate: 0%;
+    background: none;
 }
 
 nav button {
-    display:none;
+    display: none;
 }
 
 nav ul {
     list-style-type: none;
-    display:flex;
-    flex-direction:row;
-    gap:.5em;
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
 }
 
 nav a {
-    border:none;
-    flex-direction:column;
+    border: none;
+    flex-direction: column;
   }
   
   header > a:last-of-type {
-    flex-direction:column;
+    flex-direction: column;
   }
 }
 
 @media (min-width:57em) {
 	header > a:last-of-type,
 	nav a {
-	  flex-direction:row; 
+	  flex-direction: row; 
 	}
 }
 
+
+
+/***********/
+/* FOOTER */
+/**********/
 footer {
 	background-color: var(--color-footer);
 }
@@ -316,6 +347,8 @@ footer section:nth-of-type(7) {
 footer section:nth-of-type(7) ul:nth-of-type(1) li {
 	display: flex;
 	flex-direction: row;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 footer section:nth-of-type(7) img {
@@ -330,5 +363,10 @@ footer section:nth-of-type(7) ul:nth-of-type(2) li {
 footer section:nth-of-type(7) a,
 footer section:nth-of-type(7) ul:nth-of-type(2) li a {
 	text-decoration: none;
+	display: contents;
+}
+
+footer section:nth-of-type(7) ul:nth-of-type(2) p {
+	display: contents;
 }
 
