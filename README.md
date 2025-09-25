@@ -36,8 +36,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.adobe.com/nl/#
-  https://www.adobe.com/nl/products/illustrator.html
+  - https://www.adobe.com/nl/#
+  - https://www.adobe.com/nl/products/illustrator.html
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina: Adobe Creative Cloud home page
@@ -96,9 +96,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img width="108" height="868" alt="breakdown van de hele pagina" src="https://github.com/user-attachments/assets/7aaf146f-9084-43af-b542-9c3c527d79cd"/>
-  <img width="108" height="932" alt="breakdown van de hele pagina" src="https://github.com/user-attachments/assets/494c638b-ed52-4720-91d9-9df46393eda2"/>
-  <img width="104" height="1598" alt="image" src="https://github.com/user-attachments/assets/87760ce6-b2a8-4e39-b6ad-2875a92bd349" />
+  <img width="98" alt="image" src="https://github.com/user-attachments/assets/d6854a04-4b6a-4c5a-927a-c9d19fdb3e2d" />
+
 
 
 
