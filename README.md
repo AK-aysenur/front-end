@@ -41,12 +41,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina: Adobe Creative Cloud home page
-  <img width="275" alt="Adobe website begin pagina" src="https://github.com/user-attachments/assets/d68a5e1e-3473-4311-a1fe-afd322a42771"/>
+  
+  <img width="188" alt="image" src="https://github.com/user-attachments/assets/8e920014-372f-4a63-bcab-2e7e31d6e89e" />
+  <img width="192" alt="image" src="https://github.com/user-attachments/assets/2b1f5e6c-2ba9-4560-b6b8-77093f6aed64" />
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina: Adobe Illustrator page
-  <img width="275" alt="Adobe illustrator website pagina" src="https://github.com/user-attachments/assets/53a97aca-c268-4f65-b20e-6d151fc21a11"/>
+  
+  <img width="124" alt="image" src="https://github.com/user-attachments/assets/78721942-b082-4f6a-9e1e-7f7db9e938ae" />
+  <img width="124" alt="image" src="https://github.com/user-attachments/assets/2f8b104d-19dc-4581-bc94-24d6710f83c6" />
 
  
 </details>
