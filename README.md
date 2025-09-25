@@ -37,6 +37,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   https://www.adobe.com/nl/#
+  https://www.adobe.com/nl/products/illustrator.html
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina: Adobe Creative Cloud home page
