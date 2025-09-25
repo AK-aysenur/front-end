@@ -11,17 +11,18 @@ openMenuButton.addEventListener("click", openMenu);
 
 function openMenu() {
   let deNav = document.querySelector("header > nav");
-  deNav.classList.add("is-open");
+  deNav.classList.toggle("is-open");
 }
 
-let sluitMenuButton = document.querySelector("header nav button");
+// NIET MEER NODIG//
+// let sluitMenuButton = document.querySelector("header nav button");
 
-sluitMenuButton.addEventListener("click", sluitMenu);
+// sluitMenuButton.addEventListener("click", sluitMenu);
 
-function sluitMenu() {
-  let deNav = document.querySelector("header nav");
-  deNav.classList.remove("is-open");
-}
+// function sluitMenu() {
+//   let deNav = document.querySelector("header nav");
+//   deNav.classList.remove("is-open");
+// }
 
 
 //////////////////////////
