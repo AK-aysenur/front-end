@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nur Koktepe
 
   #### Je startniveau:
-  blauw
+  Blauw
 
   #### Je focus:
-  responsive
+  Responsive
  
 </details>
 
@@ -121,7 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Mijn html verbeterd zoals; sections met onnodig ul's weghalen, engelse woorden aanwijzen met lang::eng
 
 
   ### Agenda voor meeting
@@ -144,6 +144,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 </details>
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/1582190c-7513-42d2-8e0d-bf1159dd360d" />
 
 
 
@@ -155,7 +156,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het was moeilijk om de width van border kort te maken, maar dat is uiteindlijk gelukt met width::max-content
 
 
   ### Agenda voor meeting
@@ -165,18 +166,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---                                       | ---                                          | ---                                            | ---                  |
   | hoe ik de 2de menu het beste kan coderen  | menu helemaal laten uitklappen naar beneden  | Design in pagina krijgen zonder img gebruiken  | hoe footer met ul/li |
   | hoe ik borders korter kan maken           | sectie goed krijgen                          | drop down menu’s + animatie                    | header goed krijgen  |
-  | ...                                       | ...                                          | ...                                            | ...                  |
+  |                                           |                                              |                                                |                      |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - borders aangepast met width::max-content
-  - 2de header moet ik aanpassen met translate
+  - header moet ik aanpassen met translate
   - elementen met margin-inline:: auto aanpassen zodat ze helemaal aan de zijkant staan
-- ...
+  - 
 
 </details>
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/59c6cf47-cedc-461c-aa2b-ce62079fa561" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/b6d63bb6-2cff-4b8a-87d6-4bc79c7da0f1" />
 
 
 
@@ -208,11 +211,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1 Nur                        | student 2 Iris     | student 3 Luuk  | student 4 Toria  |
+  | ---                                  | ---                | ---             | ---              |
+  | Footer responsive krijgen            | en dit             | en ik dit       | en dan ik dat    |
+  | Animatie op web zetten               | dit als er tijd is | nog een punt    | dit wil ik zeker |
+  | Hoe maak je pauze knop bij een video | ...                | ...             | ...              |
+  | SVGtjes staan over mijn nav menu     | ...                | ...             | ...              |
 
 
   ### Verslag van meeting
