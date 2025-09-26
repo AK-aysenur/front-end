@@ -215,12 +215,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1 Nur                        | student 2 Iris     | student 3 Luuk  | student 4 Toria  |
-  | ---                                  | ---                | ---             | ---              |
-  | Footer responsive krijgen            | en dit             | en ik dit       | en dan ik dat    |
-  | Animatie op web zetten               | dit als er tijd is | nog een punt    | dit wil ik zeker |
-  | Hoe maak je pauze knop bij een video | ...                | ...             | ...              |
-  | SVGtjes staan over mijn nav menu     | ...                | ...             | ...              |
+  | student 1 Nur                        | student 2 Iris                       | student 3 Luuk  | student 4 Toria  |
+  | ---                                  | ---                                  | ---             | ---              |
+  | Footer responsive krijgen            | menu klapt niet uit bij groot scherm         | en ik dit       | en dan ik dat    |
+  | Animatie op web zetten               | tekst op afbeelding krijgen bij groot scherm | nog een punt    | dit wil ik zeker |
+  | Hoe maak je pauze knop bij een video |                                      | ...             | ...              |
+  | SVGtjes staan over mijn nav menu     |                                      | ...             | ...              |
 
 
   ### Verslag van meeting
