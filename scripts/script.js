@@ -88,3 +88,31 @@ klapButtonProducts.onclick = toggleLijstjeContact6;
 function toggleLijstjeContact6() {
   klapSectionProducts.classList.toggle("is-open");
 }
+
+
+
+
+//////////////////////////
+/// PLAY/PAUZE BUTTON ////
+//////////////////////////
+let videoButton = document.querySelector("main > section:nth-of-type(1) button");
+let videoButtonImg = document.querySelector("main > section:nth-of-type(1) button img");
+let deVideo = document.querySelector("video");
+
+videoButton.addEventListener("click", toggleVideo);
+
+function toggleVideo() {
+	
+	if( deVideo.paused == true ) {
+		deVideo.play();
+		videoButtonImg.src = "images/pause.svg";
+		videoButtonImg.alt = "pauze";
+		
+	} else {
+		deVideo.pause();
+		
+		videoButtonImg.src = "images/play.svg";
+		videoButtonImg.alt = "play";
+	}
+	
+}
