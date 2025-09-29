@@ -13,23 +13,25 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
+	/* namen verbeteren van roots */
+	color-scheme: light dark; 
 	--color-text: light-dark(#111, #eee);
 	--color-text2:#eee;
 	--color-text3: #111;
 	--color-background:#eee;
 	--color-background-dark: #111; 
 	--color-button-background: light-dark(#ffffff00, #111);
-	--color-box-blauw: light-dark(#00b3ff, #00415d);
+	--color-box-blauw: light-dark(#00b3ff, #005d16);
 	--color-box-beige: light-dark(#ffe4c4, #613500);
 	--color-footer: light-dark(#e1e1e1, #111);
-	--color-button: light-dark(#1a6cd0, #130072);
+	--color-button: light-dark(#1a6cd0, #029f21);
 	--color-list-creative: light-dark(#eee, #111);
 	--color-section2-main: light-dark(#eee, #494949);
 	--font-weight-dik: 600;
 	--border-color: light-dark(#111, #eee);
+	--border-color-button-header: light-dark(#eee, #111);
 	--color-a: light-dark(#111, #eee);
 	--color-a-text: light-dark(#eee, #111);
-	color-scheme: light dark; 
 }
 
 
@@ -87,6 +89,12 @@ header section button {
 	padding-bottom: .5em;
 }
 
+header section button:hover {
+	background-color: var(--color-background);
+    color: var(--color-text3);
+    border-color: var(--border-color-button-header);
+}
+
 header section h2 {
 	font-size: 1rem;
 	display: flex;
@@ -107,12 +115,27 @@ header img {
 }
 
 header a:first-child img {
-	width: 5rem;
+	width: 5rem;padding-left: .5em;
 }
 
-header > a {
+header a:nth-of-type(1) {
 	margin-right: auto;
 	text-decoration: none;
+}
+
+header a:nth-of-type(2) {
+	margin-right: right;
+	text-decoration: none;
+	padding-right: 2em;
+	border: .2em solid #a5a5a5;
+	border-radius: 2em;
+	padding-top: .5em;
+    padding-bottom: .5em;
+	color: var(--color-text3);
+}
+
+header a:nth-of-type(2):hover {
+	background-color: #d2d2d2;
 }
 
 head a:last-child {
@@ -143,10 +166,16 @@ header > button {
 	}
 }
 
+header nav ul li {
+	list-style-type: none;
+	padding-bottom: 2em;
+	padding-top: 1em;
+	text-align: left;
+}
+
 header nav a {
 	text-decoration: none;
-	color: var(--color-text3);
-	padding: 1em;
+	color: var(--color-text2);
 }
 
 nav {
@@ -161,11 +190,13 @@ nav {
 	
 	@media (prefers-reduced-motion:no-preference) {
 	  transition: .3s;
-	} 				/* geeft fout melding bij w3c validation omdat hij nesten nog niet kent */
+	} 				/* geeft fout melding bij w3c validation omdat css nesten nog niet kent */
 }
 
 nav.is-open {
    translate: 0; /* dit ook aanpassen voor de 2de menu (0 0)*/
+   padding: 2em;
+   list-style-type: none;
 }
 
 @media (min-width:38em) {
@@ -173,10 +204,16 @@ nav.is-open {
 	  display: none;
 	}
 
+	header nav a {
+		color: var(--color-text3);
+		
+	}
+
 	nav {
 		position: static;
 		translate: 0%;
 		background: none;
+		
 	}
 
 	nav button {
@@ -184,15 +221,20 @@ nav.is-open {
 	}
 
 	nav ul {
-		list-style-type: none;
+		/* list-style-type: none; */
 		display: flex;
 		flex-direction: row;
 		gap: .5em;
 	}
 
+	header nav ul li {
+		align-items: flex-end;
+	}
+
 	nav a {
 		border: none;
 		flex-direction: column;
+		
 	}
 	
 	header > a:last-of-type {
@@ -427,6 +469,15 @@ footer section:nth-of-type(7) ul:nth-of-type(2) p {
 		display: flex;
 		flex-direction: row;
 	}
+}
+
+@media (min-width:38em) {
+	main > section:nth-of-type(1) h1,
+	main > section:nth-of-type(1) h2,
+	main > section:nth-of-type(1) p {
+		text-align: center;
+	} 
+
 }
 
 /* @media (min-width:38em) {
