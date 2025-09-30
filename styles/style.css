@@ -15,24 +15,70 @@
 :root {
 	/* namen verbeteren van roots */
 	color-scheme: light dark; 
-	--color-text: light-dark(#111, #eee);
-	--color-text2:#eee;
-	--color-text3: #111;
-	--color-background:#eee;
-	--color-background-dark: #111; 
+
+	--background-color-adobe-home: linear-gradient(#282e71, #000000);
+
+	--color-text-zwart-wit: light-dark(#111, #eee);
+	--color-text-wit:#eee;
+	--color-text-zwart: #111;
+
+	--color-background-header:#eee;
+	--color-background-dark-header: #111; 
+	--header-section-dark-button: #fff;
+	--header-aanbieding-button-active: #00eaff;
+
+	--header-border-aanmelden: #a5a5a5;
+	--header-hover-aanmelden: #d2d2d2;
+	--header-focus-aanmelden: #ffbf1c;
+	--header-active-aanmelden: #00eaff;
+
+	--border-bottom-mobiel: white;
+	--border-bottom-desktop: black;
+	--background-color-nav-mobiel: #252525;
+
 	--color-button-background: light-dark(#ffffff00, #111);
-	--color-box-blauw: light-dark(#00b3ff, #005d16);
-	--color-box-beige: light-dark(#ffe4c4, #613500);
-	--color-footer: light-dark(#e1e1e1, #111);
+
+	--color-box-creative: light-dark(#00b3ff, #005d16);
+	--color-box-studenten: light-dark(#ffe4c4, #613500);
+
+	--border-color-active-adobe-home: #c80000;
+	--border-color-focus-adobe-home: #4afab9;
+	--border-color-hover-adobe-home: red;
 	--color-button: light-dark(#1a6cd0, #029f21);
+	--button-gratis: #104688;
+
+	--hover-color-lidmaat: red;
+	--aanmeld-button-focus-color: red;
+	--header-nav-a-hover: red;
+	--header-nav-a-focus: red;
+	--header-nav-a-active: blue;
+
 	--color-list-creative: light-dark(#eee, #111);
 	--color-section2-main: light-dark(#eee, #494949);
 	--font-weight-dik: 600;
+
+	--border-black-a: black;
 	--border-color: light-dark(#111, #eee);
 	--border-color-button-header: light-dark(#eee, #111);
 	--color-a: light-dark(#111, #eee);
 	--color-a-text: light-dark(#eee, #111);
 
+	--color-footer: light-dark(#e1e1e1, #111);
+	--footer-bottom-color-ul-button: #686868;
+	--footer-onderaan-info: red;
+	--footer-buttons-uitklap: red;
+	--footer-buttons-uitklap-focus: blue;
+	--footer-buttons-uitklap-active: #00b400;
+	--footer-a-uitklap-focus: #ff4c4c;
+	--footer-a-uitklap-active: #00b400;
+	--footer-socials-hover: red;
+	--footer-onderaan-info-active: #00b400;
+	--footer-socials-active: #00b400;
+
+
+
+
+	--background-color-section-illutrator: light-dark(#eee, #343434);
 	--color-text-illustrator: light-dark(#111, #eee);
 	--section-video: light-dark(#ffe678, #b19f4e);
 }
@@ -54,8 +100,6 @@ header, main, footer {
 	font-family: 'source-sans-pro', sans-serif;
 }
 
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -64,7 +108,7 @@ header {
 	flex-wrap: wrap;
 	align-items: flex-end;
 	justify-content:space-between;
-	background-color: var(--color-background);
+	background-color: var(--color-background-header);
 	list-style-type: none;
 	height: 15vh;
 	position: fixed;
@@ -76,17 +120,17 @@ header {
 header section {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--color-background-dark);
+	background-color: var(--color-background-dark-header);
 	width: 100vw;
 	order: 0;
 	padding: .8rem;
-	color: var(--color-text2);
+	color: var(--color-text-wit);
 	position: absolute;
 	top: 0;
 }
 
 header section button {
-	border: .2em solid #ffffff;
+	border: .2em solid var(--header-section-dark-button);
 	border-radius: 2em;
 	width: 12em;
 	padding-top: .5em;
@@ -94,9 +138,13 @@ header section button {
 }
 
 header section button:hover {
-	background-color: var(--color-background);
-    color: var(--color-text3);
+	background-color: var(--color-background-header);
+    color: var(--color-text-zwart);
     border-color: var(--border-color-button-header);
+}
+
+header section button:active {
+	background-color: var(--header-aanbieding-button-active);
 }
 
 header section h2 {
@@ -107,6 +155,13 @@ header section h2 {
 
 header button:nth-of-type(1) {
 	order: 1;
+}
+
+header button:nth-of-type(1):focus-visible {
+	outline-color: var(--aanmeld-button-focus-color);
+	outline-style: solid;
+	outline-width: .15em;
+	outline-offset:.2em;
 }
 
 header nav, header a {
@@ -136,15 +191,23 @@ header a:nth-of-type(2) {
 	text-decoration: none;
 	padding-right: .6em;
 	padding-left: .6em;
-	border: .2em solid #a5a5a5;
+	border: .2em solid var(--header-border-aanmelden);
 	border-radius: 2em;
 	padding-top: .5em;
     padding-bottom: .5em;
-	color: var(--color-text3);
+	color: var(--color-text-zwart);
 }
 
 header a:nth-of-type(2):hover {
-	background-color: #d2d2d2;
+	background-color: var(--header-hover-aanmelden);
+}
+
+header a:nth-of-type(2):focus-visible {
+	background-color: var(--header-focus-aanmelden);
+}
+
+header a:nth-of-type(2):active {
+	background-color: var(--header-active-aanmelden);
 }
 
 head a:last-child {
@@ -181,16 +244,17 @@ header nav ul li {
 	padding-bottom: 1em;
 	padding-top: 2em;
 	text-align: left;
-	border-bottom: .1em solid white;
+
+	border-bottom: .1em solid var(--border-bottom-mobiel);
 }
 
 header nav a {
 	text-decoration: none;
-	color: var(--color-text2);
+	color: var(--color-text-wit);
 }
 
 nav {
-	background-color: #252525;
+	background-color: var(--background-color-nav-mobiel);
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -216,15 +280,13 @@ nav.is-open {
 	}
 
 	header nav a {
-		color: var(--color-text3);
-		
+		color: var(--color-text-zwart);
 	}
 
 	nav {
 		position: static;
 		translate: 0%;
 		background: none;
-		
 	}
 
 	nav button {
@@ -242,7 +304,22 @@ nav.is-open {
 
 	header nav ul li {
 		align-items: flex-end;
-		border-bottom: .1em solid black;
+		border-bottom: .1em solid var(--border-bottom-desktop);
+	}
+
+	header nav ul li a:hover {
+		color: var(--header-nav-a-hover);
+	}
+
+	header nav ul li a:focus-visible {
+		outline-color: var(--header-nav-a-focus);
+		outline-style: solid;
+		outline-width: .15em;
+		outline-offset:.2em;
+	}
+
+	header nav ul li a:active {
+		color: var(--header-nav-a-active);
 	}
 
 	nav a {
@@ -309,7 +386,7 @@ footer section:nth-of-type(4) button,
 footer section:nth-of-type(5) button,
 footer section:nth-of-type(6) button {
 	display: block;
-	border-bottom: .01em solid #686868;
+	border-bottom: .01em solid var(--footer-bottom-color-ul-button);
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -320,6 +397,33 @@ footer section:nth-of-type(6) button {
 	cursor: pointer;
 	outline: inherit;
 	font-weight: var(--font-weight-dik);
+}
+
+footer section:nth-of-type(1) button:hover,
+footer section:nth-of-type(2) button:hover,
+footer section:nth-of-type(3) button:hover,
+footer section:nth-of-type(4) button:hover,
+footer section:nth-of-type(5) button:hover,
+footer section:nth-of-type(6) button:hover {
+	color: var(--footer-buttons-uitklap);
+}
+
+footer section:nth-of-type(1) button:focus-visible,
+footer section:nth-of-type(2) button:focus-visible,
+footer section:nth-of-type(3) button:focus-visible,
+footer section:nth-of-type(4) button:focus-visible,
+footer section:nth-of-type(5) button:focus-visible,
+footer section:nth-of-type(6) button:focus-visible {
+	color: var(--footer-buttons-uitklap-focus);
+}
+
+footer section:nth-of-type(1) button:active,
+footer section:nth-of-type(2) button:active,
+footer section:nth-of-type(3) button:active,
+footer section:nth-of-type(4) button:active,
+footer section:nth-of-type(5) button:active,
+footer section:nth-of-type(6) button:active {
+	color: var(--footer-buttons-uitklap-active);
 }
 
 footer section:nth-of-type(1) ul,
@@ -338,7 +442,7 @@ footer section:nth-of-type(6) ul {
 	
 	overflow: hidden;
 
-	border-bottom: .01em solid #686868;
+	border-bottom: .01em solid var(--footer-bottom-color-ul-button);
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -355,7 +459,7 @@ footer section:nth-of-type(6) ul a {
 	padding-left: 1.5em;
 	text-decoration: none;
 	font-size: .8em;
-	color: var(--color-text);
+	color: var(--color-text-zwart-wit);
 }
 
 footer section:nth-of-type(1) ul a:hover,
@@ -367,6 +471,24 @@ footer section:nth-of-type(6) ul a:hover {
 	background-color: var(--color-a);
 	background-size: 100% 100%;
 	color: var(--color-a-text);
+}
+
+footer section:nth-of-type(1) ul a:focus-visible,
+footer section:nth-of-type(2) ul a:focus-visible,
+footer section:nth-of-type(3) ul a:focus-visible,
+footer section:nth-of-type(4) ul a:focus-visible,
+footer section:nth-of-type(5) ul a:focus-visible,
+footer section:nth-of-type(6) ul a:focus-visible {
+	background-color: var(--footer-a-uitklap-focus);
+}
+
+footer section:nth-of-type(1) ul a:active,
+footer section:nth-of-type(2) ul a:active,
+footer section:nth-of-type(3) ul a:active,
+footer section:nth-of-type(4) ul a:active,
+footer section:nth-of-type(5) ul a:active,
+footer section:nth-of-type(6) ul a:active {
+	background-color: var(--footer-a-uitklap-active);
 }
 
 footer section:nth-of-type(1).is-open ul,
@@ -420,18 +542,26 @@ footer section h2 {    /* verstopt h2 */
     width: 1px;
 }
 
-/* section 2 van footer  */
+/* SECTION 2 VAN FOOTER  */
 footer section:nth-of-type(7) {
 	padding: 2em;
 	margin-top: 1em;
 }
 
 footer section:nth-of-type(7) a, p {
-	color: var(--color-text);
+	color: var(--color-text-zwart-wit);
 }
 
 footer section:nth-of-type(7) a:hover {
-	color: red;
+	color: var(--footer-onderaan-info);
+}
+
+/* footer section:nth-of-type(7) a:focus-visible {
+	color: green;
+} */
+
+footer section:nth-of-type(7) a:active {
+	color: var(--footer-onderaan-info-active);
 }
 
 footer section:nth-of-type(7) ul:nth-of-type(1) li {
@@ -443,6 +573,24 @@ footer section:nth-of-type(7) ul:nth-of-type(1) li {
 
 footer section:nth-of-type(7) img {
 	width: 4vh;
+}
+
+footer section:nth-of-type(7) img:hover {
+	outline-color: var(--footer-socials-hover);
+	outline-style: solid;
+	outline-width: .10em;
+}
+
+/* footer section:nth-of-type(7) img:focus-visible {
+	outline-color: green;
+	outline-style: solid;
+	outline-width: .10em;
+} */
+
+footer section:nth-of-type(7) img:active {
+	outline-color: var(--footer-socials-active);
+	outline-style: solid;
+	outline-width: .10em;
 }
 
 footer section:nth-of-type(7) ul:nth-of-type(2) li {
@@ -461,14 +609,84 @@ footer section:nth-of-type(7) ul:nth-of-type(2) p {
 }
 
 @media (min-width:38em) {
-	footer section:nth-of-type(1),
+	footer {
+	display: flex;
+	flex-direction: row; 
+    align-items: flex-start;
+	flex-wrap: wrap;
+	}
+
+
+	/* footer section:nth-of-type(1),
 	footer section:nth-of-type(2),
 	footer section:nth-of-type(3),
 	footer section:nth-of-type(4),
 	footer section:nth-of-type(5),
-	footer section:nth-of-type(6) {
-		display: flex;
-		flex-direction: row;
+	footer section:nth-of-type(6) { */
+		/* display: flex;
+		flex-direction: row; */
+		/* border-bottom: none; 
+    	flex: 1;
+	} */
+
+	footer section:not(:last-of-type) {
+		border-bottom: none;
+		flex: 1;
+		gap: 1rem;
+		padding-top: 3em;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+
+	/* footer section:nth-of-type(1) ul,
+	footer section:nth-of-type(2) ul,
+	footer section:nth-of-type(3) ul,
+	footer section:nth-of-type(4) ul,
+	footer section:nth-of-type(5) ul,
+	footer section:nth-of-type(6) ul {
+		display: block;
+	} */
+
+
+	/* footer section:not(:last-of-type) button */
+	footer section:nth-of-type(1) button,
+	footer section:nth-of-type(2) button,
+	footer section:nth-of-type(3) button,
+	footer section:nth-of-type(4) button,
+	footer section:nth-of-type(5) button,
+	footer section:nth-of-type(6) button {
+		display: none;
+	}
+
+	/* footer section:not(:last-of-type) h2  */
+	footer section:nth-of-type(1) h2,
+	footer section:nth-of-type(2) h2,
+	footer section:nth-of-type(3) h2,
+	footer section:nth-of-type(4) h2,
+	footer section:nth-of-type(5) h2,
+	footer section:nth-of-type(6) h2 { /* vissable gemaakt */
+		position: static;
+    	width: auto;
+    	height: auto;
+    	margin: 0 0 .5em;
+    	overflow: visible;
+    	clip: auto;
+    	clip-path: none;
+    	white-space: normal;
+		font-size: .9em;  
+	}
+
+	/* footer section:not(:last-of-type) ul */
+	footer section:nth-of-type(1) ul,
+	footer section:nth-of-type(2) ul,
+	footer section:nth-of-type(3) ul,
+	footer section:nth-of-type(4) ul,
+	footer section:nth-of-type(5) ul,
+	footer section:nth-of-type(6) ul {
+		display: block !important; /* override JS toggle styles */
+		height: auto;              /* als je height animatie gebruikt */
+		opacity: 1;                /* als je fade gebruikt */
+		visibility: visible;       /* als je met visibility werkt */
 	}
 
 	footer section:nth-of-type(1) button img,
@@ -486,29 +704,27 @@ footer section:nth-of-type(7) ul:nth-of-type(2) p {
 	footer section:nth-of-type(4) ul li,
 	footer section:nth-of-type(5) ul li,
 	footer section:nth-of-type(6) ul li {
-		position: static;
+		/* position: static;
 		translate: unset;
 		display: flex;
-		flex-direction: row;
+		flex-direction: row; */
+		/* text-align: left; */
+		padding: 0%;
 	}
 
-	footer section:nth-of-type(7) ul:nth-of-type(2) li a {
-		
+	footer section:nth-of-type(1) ul li a,
+	footer section:nth-of-type(2) ul li a,
+	footer section:nth-of-type(3) ul li a,
+	footer section:nth-of-type(4) ul li a,
+	footer section:nth-of-type(5) ul li a,
+	footer section:nth-of-type(6) ul li a {
+		padding-left: 0%;
 	}
-}
-
-@media (min-width:38em) {
-	main > section:nth-of-type(1) h1,
-	main > section:nth-of-type(1) h2,
-	main > section:nth-of-type(1) p {
-		text-align: center;
-	} 
-
 }
 
 @media (min-width:38em) {
 	header button:nth-of-type(1) {
-		margin-right: 17em;
+		margin-right: 30em;
 	}
 
 	header section h2 {

@@ -1,5 +1,5 @@
 main {
-	background: linear-gradient(#282e71, #000000);
+    background: var(--background-color-adobe-home);
 }
 
 img {
@@ -23,13 +23,13 @@ main > section:first-of-type ul li a:nth-of-type(1) { /****goedd**/
     display: flex;
     justify-content: center;
     margin: 2em;
-    color: var(--color-text2);
+    color: var(--color-text-wit);
     font-size: 1.2em;
     border-color: var(--color-button);
 }
 
 main > section:first-of-type ul li a:nth-of-type(1):hover {     /*******/
-    background-color: #104688;
+    background-color: var(--button-gratis)
 }
 
 main > section:first-of-type ul li a:nth-of-type(1):focus-visible,
@@ -43,7 +43,7 @@ main > section:first-of-type ul li a:nth-of-type(2) {         /*******/
     display: flex;
     justify-content: left;
     margin: 2em;
-    color: var(--color-text2);
+    color: var(--color-text-wit);
     font-size: 1.2em;
 }
 
@@ -51,17 +51,17 @@ main > section:first-of-type ul li a:nth-of-type(2):hover {           /*******/
     text-decoration-style: wavy;
 	text-underline-offset: .15em;
 	text-decoration-thickness: .1em;
-    color: red;
+    color: var(--hover-color-lidmaat);
 }
 
 main > section:nth-of-type(1) p {
-    color: var(--color-text2);
+    color: var(--color-text-wit);
     margin: 2em;
     font-size: 1.2em;
 }
 
 main > section:nth-of-type(1) h1 {
-    color: var(--color-text2);
+    color: var(--color-text-wit);
     /* display: flex;
     justify-content: center; */
     padding-top: 12rem;
@@ -77,18 +77,18 @@ main > section:nth-of-type(1) h1 {
 main > section:nth-of-type(1) h2 {
     margin: 2rem;
     font-size: 2rem;
-    color: var(--color-text2);
+    color: var(--color-text-wit);
 }
 
 /***************/
 /* BOX 1 BLAUW */
 /***************/
 main > section > section:nth-of-type(1) { 
-	background-color: var(--color-box-blauw);
+	background-color: var(--color-box-creative);
 	border-radius: 1em;
     margin: 2em;
     padding: 1em;
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
     grid-row: 2;
 }
 
@@ -99,7 +99,7 @@ main > section > section:nth-of-type(2) h2 {
     font-size: 1rem;
     text-transform: uppercase;
     padding: 1rem;
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
 }
 
 main > section > section:nth-of-type(1) h3,
@@ -111,7 +111,7 @@ main > section > section:nth-of-type(2) h3 {
 main > section > section:nth-of-type(1) p,
 main > section > section:nth-of-type(2) p {
     /* padding: .2rem 1rem .5rem; */
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
     margin: 1em;
 }
 
@@ -122,7 +122,7 @@ main > section > section:nth-of-type(2) a {
     margin-left: 1em;
     border-style: solid;
     border-radius: 2em; 
-    border-color: black;
+    border-color: var(--border-black-a);
     border-width: .2em;
     width: 12rem;
     display: flex;
@@ -131,32 +131,44 @@ main > section > section:nth-of-type(2) a {
     text-decoration: none;
     font-size: 1em;
     font-weight: var(--font-weight-dik);
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
 }
 
 main > section > section:nth-of-type(1) a:hover,
 main > section > section:nth-of-type(2) a:hover,
 main > section:last-of-type a:hover {
-    background-color: var(--color-background-dark);
-    color: var(--color-text2);
-    border-color: var(--color-a-text);
+    background-color: var(--color-background-dark-header);
+    color: var(--color-text-wit);
+    border-color: var(--border-color-hover-adobe-home);
+}
+
+main > section > section:nth-of-type(1) a:focus-visible,
+main > section > section:nth-of-type(2) a:focus-visible,
+main > section:last-of-type a:focus-visible {
+    background-color: var(--border-color-focus-adobe-home);
+}
+
+main > section > section:nth-of-type(1) a:active,
+main > section > section:nth-of-type(2) a:active,
+main > section:last-of-type a:active {
+    background-color: var(--border-color-active-adobe-home);
 }
 
 /***************/
 /* BOX 2 BEIGE */
 /***************/
 main > section > section:nth-of-type(2) { 
-	background-color: var(--color-box-beige);
+	background-color: var(--color-box-studenten);
 	border-radius: 1em;
     margin: 2em;
     padding: 1em;
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
     grid-row: 2;
 }
 
 @media (width > 40em) {
     main > section:first-of-type {
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         /* grid-column-start: -1; */
     }
@@ -168,7 +180,7 @@ main > section:last-of-type {
 }
 
 main > section:last-of-type h2 {
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
     text-align: center;
     padding: .5em;
 }
@@ -191,7 +203,7 @@ main > section:last-of-type a {
     border-radius: 1.5em; 
     border-width: .2em;
     border-color: var(--border-color);
-    color: var(--color-text);
+    color: var(--color-text-zwart-wit);
     font-weight: var(--font-weight-dik);
     width: auto;
     display: block;
@@ -200,6 +212,19 @@ main > section:last-of-type a {
 }
 
 @media (min-width:38em) {
+    main > section:nth-of-type(1) h1,
+	main > section:nth-of-type(1) h2,
+	main > section:nth-of-type(1) p {
+		text-align: center;
+	} 
+
+    main > section > section:nth-of-type(1) h2, 
+    main > section > section:nth-of-type(2) h2,
+    main > section > section:nth-of-type(1) p, 
+    main > section > section:nth-of-type(2) p {
+        text-align: left;
+    }
+
     /* main > section:first-of-type ul li a:nth-of-type(1), */
 	main > section:first-of-type ul li:nth-of-type(2) {
         display: flex;
@@ -227,4 +252,14 @@ main > section:last-of-type a {
     main > section:last-of-type {
         padding-top: 2em;
     }
+
 }
+
+/* @media (min-width:38em) {
+	main > section:nth-of-type(1) h1,
+	main > section:nth-of-type(1) h2,
+	main > section:nth-of-type(1) p {
+		text-align: center;
+	} 
+
+} */

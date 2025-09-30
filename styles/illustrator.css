@@ -11,7 +11,6 @@ main > section:nth-of-type(1) button {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-    
 }
 
 main > section:nth-of-type(1) > button > img {
@@ -30,13 +29,23 @@ main > section:nth-of-type(1) video {
     width: 100%;
 }
 
-main > section:nth-of-type(1) h1 {
+main > section:nth-of-type(1) h1 { /* h1 verstopt */
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+main > section:nth-of-type(1) h2 {
     font-size: 1em;
     padding-left: 2em;
     padding-bottom: 1em;
 }
 
-main > section:nth-of-type(1) h2 {
+main > section:nth-of-type(1) h3 {
     font-size: 1.8em;
     padding-left: 1em;
     padding-bottom: 1em;
@@ -47,6 +56,10 @@ main > section:nth-of-type(1) p {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 3em;
+}
+
+main > section:nth-of-type(2) {
+    background-color: var(--background-color-section-illutrator);
 }
 
 main > section:nth-of-type(2) > section { /*******/
@@ -84,14 +97,15 @@ main > section:nth-of-type(2) > section p {
 
 @media (min-width:38em) {
     main > section:nth-of-type(1) video {
-        width: 30em;
+        width: 35em;
         padding-bottom: 5em;
         padding-top: 13em;
+        padding-left: 5em;
     }
 
     main > section:nth-of-type(1) > button > img {
-        left: 22em;
-        top: 32em;
+        left: 27em;
+        top: 35em;
     }
 
     main > section:nth-of-type(1) {
@@ -105,9 +119,34 @@ main > section:nth-of-type(2) > section p {
         padding-top: 15em;
     }
 
-    main > section:nth-of-type(1) section h1,
     main > section:nth-of-type(1) section h2,
+    main > section:nth-of-type(1) section h3,
     main > section:nth-of-type(1) section p {
         text-align: left;
+        padding-right: 8em;
+    }
+
+    main > section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main > section:nth-of-type(2) section {
+        grid-row: 3;
+        padding-top: 8em;
+    }
+
+    main > section:nth-of-type(2) > h2:nth-of-type(1) {
+        position: absolute;
+        left: 20em;
+    }
+
+    main > section:nth-of-type(2) section h2 {
+        padding-left: 8em;
+    }
+
+    main > section:nth-of-type(2) section p {
+        padding-left: 9em;
+        padding-right: 7em;
     }
 }
