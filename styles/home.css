@@ -200,21 +200,23 @@ main > section:last-of-type a {
 }
 
 @media (min-width:38em) {
-    main > section:first-of-type ul li a:nth-of-type(1),
-	main > section:first-of-type ul li a:nth-of-type(2) {
+    /* main > section:first-of-type ul li a:nth-of-type(1), */
+	main > section:first-of-type ul li:nth-of-type(2) {
         display: flex;
-        align-items: center; /* werkt niet?????? */
+        justify-content: center;
     }
 
     main > section:last-of-type h2 {
         display: flex;
         position: absolute;
+        padding-left: 8em;
     }
 
     main > section:last-of-type ul {
         display: flex;
         flex-direction: row;
         justify-content: right;
+        padding-right: 13em;
     }
 
     main > section:last-of-type li {

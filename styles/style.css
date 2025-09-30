@@ -69,7 +69,7 @@ header {
 	height: 15vh;
 	position: fixed;
 	width: 100%;
-	padding-bottom: .5em;
+	/* padding-bottom: .5em; */
 	z-index: 10;
 }
 
@@ -119,7 +119,9 @@ header img {
 }
 
 header a:first-child img {
-	width: 5rem;padding-left: .5em;
+	width: 5rem;
+	padding-left: .5em;
+	padding-bottom: .7em;
 }
 
 header a:nth-of-type(1) {
@@ -128,9 +130,12 @@ header a:nth-of-type(1) {
 }
 
 header a:nth-of-type(2) {
-	margin-right: right;
+	margin-left: auto;
+	margin-right: 1em;
+	margin-bottom: .5em;
 	text-decoration: none;
-	padding-right: 2em;
+	padding-right: .6em;
+	padding-left: .6em;
 	border: .2em solid #a5a5a5;
 	border-radius: 2em;
 	padding-top: .5em;
@@ -158,6 +163,7 @@ header button { /* bron button stijl weghalen: https://stackoverflow.com/questio
 
 header button img {
 	width: 2.5em;
+	padding-bottom: .8em;
 }
 
 header > button {
@@ -172,9 +178,10 @@ header > button {
 
 header nav ul li {
 	list-style-type: none;
-	padding-bottom: 2em;
-	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-top: 2em;
 	text-align: left;
+	border-bottom: .1em solid white;
 }
 
 header nav a {
@@ -228,22 +235,33 @@ nav.is-open {
 		/* list-style-type: none; */
 		display: flex;
 		flex-direction: row;
-		gap: .5em;
+		gap: 2em;
+		margin-left: -13em;
+		/* margin-top: 4.3em; */
 	}
 
 	header nav ul li {
 		align-items: flex-end;
+		border-bottom: .1em solid black;
 	}
 
 	nav a {
 		border: none;
 		flex-direction: column;
-		
 	}
 	
 	header > a:last-of-type {
 		flex-direction: column;
 	}
+
+	header a:nth-of-type(2) {
+		/* margin-bottom: 1.3em; */
+	}
+
+	header a:first-child img {
+		/* padding-bottom: 1.4em; */
+	}
+
 }
 
 @media (min-width:57em) {
@@ -473,6 +491,10 @@ footer section:nth-of-type(7) ul:nth-of-type(2) p {
 		display: flex;
 		flex-direction: row;
 	}
+
+	footer section:nth-of-type(7) ul:nth-of-type(2) li a {
+		
+	}
 }
 
 @media (min-width:38em) {
@@ -482,6 +504,20 @@ footer section:nth-of-type(7) ul:nth-of-type(2) p {
 		text-align: center;
 	} 
 
+}
+
+@media (min-width:38em) {
+	header button:nth-of-type(1) {
+		margin-right: 17em;
+	}
+
+	header section h2 {
+		margin-left: 30em;
+	}
+
+	header a:nth-of-type(1) {
+		padding-left: 1em;
+	}
 }
 
 /* @media (min-width:38em) {
