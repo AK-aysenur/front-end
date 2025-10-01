@@ -254,20 +254,45 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img width="350" alt="mobiel Adobe creative cloud" src="https://github.com/user-attachments/assets/98153e30-2e8f-4f60-85f3-55a0de9dd1cd" />
+  <img width="350" alt="mobiel Adobe illustrator" src="https://github.com/user-attachments/assets/c2bf3572-e8a6-4255-a2e0-f4adac23489d" />
+
+  <img width="350" alt="adobe creative cloud desktop" src="https://github.com/user-attachments/assets/c797a8a3-eaf6-4905-a207-eb0b5eef9013" />
+  <img width="350" alt="adobe illustrator desktop" src="https://github.com/user-attachments/assets/251e5ec8-7b8e-42c5-a80f-2f8d64656bcb" />
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Wat ik heb geleerd in de afgelopen 4 weken zijn super veel. Ik weet nu hoe ik mijn website responsive kan maken. Voorheen wist ik dat nog niet en nu kan ik dat makkelijk met media query doen. Wat ik ook niet wist voorheen dat je root kan gebruiken voor je algemene stijl, zo hoef je bij een aanpassing alleen bij de root doen.
+  
+  Wat goed ging de stijl vormgeven van mijn site en daarbij ook de dark modus aan toevoegen. 
+  Ik heb ook een dialog kunnen toevoegen die mij is gelukt en waar ik ook trots op ben. Daarbij heeft de oefen opdracht heel goed geholpen.
+  Waar ik ook blij mee ben is de video die ik op de tweede pagina heb kunnen maken met een pauze knop. Want zo houd hij zich aan de WWCAG checklist.
+  
+
+  <img width="350" alt="video op mijn 2de pagina" src="https://github.com/user-attachments/assets/40a29823-3468-485b-9886-87cac8bc48d1" />
+  <img width="350" alt="bericht dialog" src="https://github.com/user-attachments/assets/29cbc489-0921-48fc-b6a0-801a6cbb57a1" />
+
+  
+  
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+  Wat wel lastig was was om bepaalde dingen in mijn site responsive te krijgen zoals mijn footer. Daar had ik super veel moeite mee en had ik ook uieindelijk chatgpt moeten vragen hoe. Ik had het eerst gevraagd aan studentassistent en hij had me daarbij 2 opties voor gegeven, het probleem daarvan was dat ik bijna mijn hele footer zou moeten veranderen en daar had ik geen tijd voor. Ik dacht bij mezelf wel dat er een makkelijkere oplossing voor zou moeten zijn. Uiteindelijk is het mij wel gelukt.
+
+  Waar ik ook heel erg moeite mee had is de header. Ik heb boven mijn header een zwart balk met info erop en dat was super moeilijk om helemaal bovenaan te krijgen van mijn header. Daarbij heb ik de hulp gekregen van een studentassistent en hebben we dat kunnen fixen met order.
+
+  <img width="350" alt="footer mobiel" src="https://github.com/user-attachments/assets/82b60ebc-1858-45a3-ba8c-a18a5b5f361c" />
+  <img width="2846" height="1164" alt="image" src="https://github.com/user-attachments/assets/7357d732-6163-441c-aeb7-b6a59b8f2301" />
+
+  <img width="350" alt="header" src="https://github.com/user-attachments/assets/412330b7-dd9c-4135-86e4-dc127f7c863f" />
+
+
 
 
 
