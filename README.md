@@ -209,29 +209,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik mocht wat eerder op gesprek bij groepje, Tin en Frederique
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1 Nur                        | student 2 Iris                               | student 3 Luuk            | student 4 Toria  |
   | ---                                  | ---                                          | ---                       | ---              |
-  | Footer responsive krijgen            | menu klapt niet uit bij groot scherm         | Border-box problemen       | Video op github    |
+  | Footer responsive krijgen            | menu klapt niet uit bij groot scherm         | Border-box problemen       | Video op github |
   | Animatie op web zetten               | tekst op afbeelding krijgen bij groot scherm | Clickbare backgroundimages | Footer wit vlak |
-  | Hoe maak je pauze knop bij een video |                                              | ...                       | Pauze knop              |
-  | SVGtjes staan over mijn nav menu     |                                              | ...                       | ...              |
+  | Hoe maak je pauze knop bij een video |                                              |                            | Pauze knop      |
+  | SVGtjes staan over mijn nav menu     |                                              |                            |                 |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik heb een tutorial gekregen van Sanne hoe je een video met een button kan pauzeren.
+  Met de z-index heb ik de nav naar voren kunnen halen, eerst zat het achterop en kon je het niet zien.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
+<img width="350" alt="svgtjes stonden op mijn nav" src="https://github.com/user-attachments/assets/ce8908c3-33bf-4ec2-a1d9-48cb86c86ac7" />
+<img width="350" alt="z-index" src="https://github.com/user-attachments/assets/3d2048d5-c125-43f8-b7e4-a608fd59e56f" />
 
 
 
@@ -267,12 +266,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1 over hoe je de stijling van een button kan weghalen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
   2. bron 2 svgtjes: https://www.svgrepo.com/
-  3. bron 3 ik had problemen met de footer responsive te maken bij groot scherm. ik had het eerst aan een studentassistent gevraagd maar dat zou te veel tijd in beslag nemen dus heb ik het chatgpt gevraagd: <img width="350" alt="afbeelding van een html code" src=""/>
+  3. bron 3 ik had problemen met de footer responsive te maken bij groot scherm. ik had het eerst aan een studentassistent gevraagd maar dat zou te veel tijd in beslag nemen dus heb ik het chatgpt gevraagd: <img width="350" alt="image" src="https://github.com/user-attachments/assets/edad9171-816c-4ac6-9707-650758e554d8" />
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/db27b272-f63a-4ea1-a3bb-72bfd2100771" />
+  4. bron 4 a11y om h te verstoppen: https://www.a11yproject.com/posts/how-to-hide-content/
+
+
 
 </details>
