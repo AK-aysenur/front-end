@@ -179,7 +179,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - borders aangepast met width::max-content
   - header moet ik aanpassen met translate
   - elementen met margin-inline:: auto aanpassen zodat ze helemaal aan de zijkant staan
-  - 
 
 </details>
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/59c6cf47-cedc-461c-aa2b-ce62079fa561" />
@@ -196,8 +195,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  
+  Vergeleken met de officele website houd mijn website aan veel van de WCAG checklist. 
+  De officele website heeft bijvoorbeeld op zijn video autoplay wat niet goed is en dat heb ik weer verbeterd zodat hij alleen afspeelt als je op de play button klikt.
+  Op de website zijn er linkjes die de stijl hebben van een button. Dat heb ik ook bij mijn web gemaakt.
+  Wat de officele website niet heeft zijn duidelijke focus states en hover states. Dat heb ik verbeterd in mijn site, zo heb ik duidelijke kleuren gegeven.
+  Adobe zelf ondersteunt geen dark mode. Dat heb ik wel op mijn web.
+  
 </details>
+<img width="350" alt="officele site" src="https://github.com/user-attachments/assets/eb0ef1f7-1af3-491b-b870-70a821bbdeeb" />
+<img width="350" alt="mijn site" src="https://github.com/user-attachments/assets/b0890911-ae57-463b-b56f-2ebc2ddca9d4" />
+
+<img width="350" alt="officele site" src="https://github.com/user-attachments/assets/660c9863-8ba5-42ba-b352-998d02abed75" />
+<img width="350" alt="mijn site" src="https://github.com/user-attachments/assets/b159317c-b0d4-45f2-a2a9-1e1103530a9c" />
+
+
 
 
 
@@ -269,9 +281,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. bron 1 over hoe je de stijling van een button kan weghalen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
   2. bron 2 svgtjes: https://www.svgrepo.com/
-  3. bron 3 ik had problemen met de footer responsive te maken bij groot scherm. ik had het eerst aan een studentassistent gevraagd maar dat zou te veel tijd in beslag nemen dus heb ik het chatgpt gevraagd: <img width="350" alt="image" src="https://github.com/user-attachments/assets/edad9171-816c-4ac6-9707-650758e554d8" />
+  3. bron 3 ik had problemen met de footer responsive te maken bij groot scherm. Ik had het eerst aan een studentassistent gevraagd maar dat zou te veel tijd in beslag nemen dus heb ik het chatgpt gevraagd: <img width="350" alt="image" src="https://github.com/user-attachments/assets/edad9171-816c-4ac6-9707-650758e554d8" />
   <img width="350" alt="image" src="https://github.com/user-attachments/assets/db27b272-f63a-4ea1-a3bb-72bfd2100771" />
   4. bron 4 a11y om h te verstoppen: https://www.a11yproject.com/posts/how-to-hide-content/
+  5. bron 5 hoe je video in je html toevoegd: https://stackoverflow.com/questions/16965170/html5-video-autoplay-not-working-correctly
+  6. bron 6 hoe ik de video met pauze knop kan bediennen, hulp gekregen van Sanne (docent) : https://codepen.io/shooft/pen/xbZZEQB
 
 
 
