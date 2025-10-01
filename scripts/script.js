@@ -1,7 +1,3 @@
-// JavaScript Document
-console.log("hi");
-
-
 ///////////////////
 // DROPDOWN-MENU //
 ///////////////////
@@ -14,15 +10,7 @@ function openMenu() {
   deNav.classList.toggle("is-open");
 }
 
-// NIET MEER NODIG//
-// let sluitMenuButton = document.querySelector("header nav button");
 
-// sluitMenuButton.addEventListener("click", sluitMenu);
-
-// function sluitMenu() {
-//   let deNav = document.querySelector("header nav");
-//   deNav.classList.remove("is-open");
-// }
 
 
 //////////////////////////
@@ -116,3 +104,20 @@ function toggleVideo() {
 	}
 	
 }
+
+
+
+
+/////////////////////////////////
+/// BERICHT VERTUREN BUTTON ////
+////////////////////////////////
+// 4.1 zoek de help button op
+const helpButton = document.querySelector("main section:last-of-type > button");
+
+// 4.2 zoek de help dialog op
+const helpDialog = document.querySelector("main section:last-of-type > dialog");
+
+// 4.3 als je op de klikt, open de dialog met .show()
+helpButton.addEventListener("click", () => {
+  helpDialog.show();
+});
