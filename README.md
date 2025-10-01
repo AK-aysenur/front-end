@@ -273,6 +273,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. bron 1 over hoe je de stijling van een button kan weghalen: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
   2. bron 2 svgtjes: https://www.svgrepo.com/
-  3. ...
+  3. bron 3 ik had problemen met de footer responsive te maken bij groot scherm. ik had het eerst aan een studentassistent gevraagd maar dat zou te veel tijd in beslag nemen dus heb ik het chatgpt gevraagd: <img width="350" alt="afbeelding van een html code" src=""/>
 
 </details>
